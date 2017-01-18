@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+    <!--<script>-->
+    <!--function startTime() {-->
+    <!--var today = new Date();-->
+    <!--var h = today.getHours();-->
+    <!--var m = today.getMinutes();-->
+    <!--var s = today.getSeconds();-->
+    <!--m = checkTime(m);-->
+    <!--s = checkTime(s);-->
+    <!--document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;-->
+    <!--t = setTimeout(function () { startTime() }, 500);-->
+    <!--}-->
+
+    <!--function checkTime(i) {-->
+    <!--if (i < 10) {-->
+    <!--i = "0" + i;-->
+    <!--}-->
+    <!--return i;-->
+    <!--}-->
+    <!--</script>-->
+</head>
+<body>
+
+<!--<div id="txt"></div>-->
+<!--<script>-->
+<!--person = {firstname: "John", lastname: "Doe", age: 50, eyecolor: "blue"}-->
+<!--document.write(person.firstname + " is " + person.age + " years old.");-->
+<!--</script>-->
+
+<script>
+    function person(firstname, lastname, age, eyecolor) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.age = age;
+        this.eyecolor = eyecolor;
+    }
+    myFather = new person("John", "Doe", 50, "blue");
+    document.write(myFather.firstname + " is " + myFather.age + " years old.");
+</script>
+
+</body>
+</html>
